@@ -1,0 +1,77 @@
+
+p{
+font-size: 15px; font-family: Georgia, serif;color: dimgray;line-height: 1.5em;
+}
+
+a{
+font-size: 15px;
+}
+
+a:visited {
+color: green;
+}
+
+a:hover {
+ color: hotpink;font-size: 20px;
+}
+
+body {
+max-width: 90%; 
+margin: auto;
+background-color: #EEF500;
+background-image: url("appel.png");
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: 50px;
+}
+
+section.test q{
+font-style: italic;
+font-size: 160%; 
+background-color:#D3D3D3;
+border-left: dashed 3px;
+width:50%;
+padding-left: 30px;
+padding-bottom: 80px;
+padding-top:80px;
+display: block;
+margin:auto;
+}
+
+section.test q.vil{
+border-left-color: green	
+}
+
+section.test q.farmer{
+border-left-color: orange;
+}
+
+header h1{
+background-color: yellow;
+}
+
+section.test blockquote{
+}
+
+.good{
+text-transform:capitalize;
+color: green;
+}
+
+.bad{
+text-transform:capitalize;
+color: red;
+}
+
+tr:nth-child(even){background: #CCC}
+tr:nth-child(odd){background: #FFF}
+
+section.test p:first-of-type{
+font-weight: bold;
+}
+
+figure {
+	float:left;
+	margin:0px 50px 80px 0px;
+	position: relative;
+}
