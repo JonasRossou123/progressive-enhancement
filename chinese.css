@@ -1,76 +1,107 @@
 
 p{
-font-size: 15px; font-family: Georgia, serif;color: dimgray;line-height: 1.5em;
+	font-size: 15px; font-family: Georgia, serif;color: dimgray;line-height: 1.5em;
+}
+
+article{
+	font-size: 15px; font-family: Georgia, serif;color: dimgray;line-height: 1.5em;	
+}
+
+h1{
+	font-size: 30px;font-family: Georgia, serif;color: dimgray;
+}
+
+h2{
+	font-size: 25px;font-family: Georgia, serif;color: dimgray;
+}
+
+h3{
+	font-size: 20px;font-family: Georgia, serif;color: dimgray;
 }
 
 a{
-font-size: 15px;
+	font-size: 15px;
 }
 
 a:visited {
-color: green;
+	color: green;
 }
 
 a:hover {
- color: hotpink;font-size: 20px;
+ 	color: hotpink;font-size: 20px;
 }
 
+figcaption{
+	font-size: 10px;font-family: Georgia, serif;color: dimgray;
+}
 body {
-max-width: 90%; 
-margin: auto;
-background-color: #EEF500;
-background-image: url("appel.png");
-background-repeat: no-repeat;
-background-position: right bottom;
-background-size: 50px;
+	max-width: 90%; 
+	margin: auto;
+	background-color: #EEF500;
+	background-image: url("appel.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 50px;
 }
 
-section.test q{
-font-style: italic;
-font-size: 160%; 
-background-color:#D3D3D3;
-border-left: dashed 3px;
-width:50%;
-padding-left: 30px;
-padding-bottom: 80px;
-padding-top:80px;
-display: block;
-margin:auto;
+section.preamble{
+	font-size: 15px; font-family: Georgia, serif;color: dimgray;line-height: 1.5em;	
 }
 
-section.test q.vil{
-border-left-color: green	
+.innerwrapper1 section article q{
+	font-style: italic;
+	font-size: 160%; 
+	background-color:#D3D3D3;
+	border-left: dashed 3px;
+	width:50%;
+	padding-left: 30px;
+	padding-bottom: 80px;
+	padding-top:80px;
+	display: block;
+	margin:auto;
 }
 
-section.test q.farmer{
-border-left-color: orange;
+.innerwrapper1 section article q.vil{
+	border-left-color: green	
+}
+
+.innerwrapper1 section article q.farmer{
+	border-left-color: orange;
 }
 
 header h1{
-background-color: yellow;
-}
-
-section.test blockquote{
+	background-color: yellow;
 }
 
 .good{
-text-transform:capitalize;
-color: green;
+	text-transform:capitalize;
+	color: green;
 }
 
 .bad{
-text-transform:capitalize;
-color: red;
+	text-transform:capitalize;
+	color: red;
 }
 
 tr:nth-child(even){background: #CCC}
 tr:nth-child(odd){background: #FFF}
 
-section.test p:first-of-type{
-font-weight: bold;
+table{
+	font-size: 30px;font-family: Georgia, serif;color: dimgray;
+	text-align: center;
 }
 
-figure {
+.innerwrapper1 span:first-child{
+	font-weight: bold;
+}
+
+.innerwrapper1 span.author {
+	font-style:italic;
+	display: block;
+	text-align: right;
+}
+
+header section figure{
 	float:left;
 	margin:0px 50px 80px 0px;
 	position: relative;
